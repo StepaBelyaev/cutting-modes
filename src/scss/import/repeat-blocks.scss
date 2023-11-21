@@ -29,11 +29,14 @@
 
 //! Repeat Blocks
 //Titles
-.title-h1 {}
+.title-h1 {
+}
 
-.title-h2 {}
+.title-h2 {
+}
 
-.title-h3 {}
+.title-h3 {
+}
 
 // Buttons
 .btn-hili {
@@ -49,7 +52,7 @@
   font-size: 18px;
   letter-spacing: 0.8px;
   text-transform: capitalize;
-  color: $whiteColor;
+  color: #fff;
   border-radius: 4px;
   overflow: hidden;
   transition: all 0.2s linear;
@@ -103,7 +106,7 @@
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 8px;
-    color: $whiteColor;
+    color: #fff;
     position: relative;
     z-index: 5;
   }
@@ -191,11 +194,11 @@
   transition: all 0.2s linear;
 
   &_blue {
-    background: $blueColor;
+    background: blue;
   }
 
   &_gray {
-    background: $grayColor;
+    background: gray;
   }
 
   @media (max-width: 767.98px) {
